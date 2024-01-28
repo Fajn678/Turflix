@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turflix</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .season-header {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .rectangle-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .rectangle {
+      width: calc(10% - 10px);
+      background-color: #555;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 10px;
+      cursor: pointer; /* Kursor wskazuje, że prostokąt jest klikalny */
+    }
+
+    .rectangle a {
+      text-decoration: none;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Turflix
+  </header>
+
+  <div class="container">
+    <div class="season-header">
+      Sezon 1
+    </div>
+
+    <div class="rectangle-container">
+      <div class="rectangle" id="strona1" onclick="window.location.href='Film1.html'">
+        <a href="Film1.html">Tytuł Strony 1</a>
+      </div>
+      <div class="rectangle" id="strona2" onclick="window.location.href='link-do-strony-2'">
+        <a href="link-do-strony-2">Tytuł Strony 2</a>
+      </div>
+      <!-- Dodaj więcej prostokątów z linkami według potrzeb -->
+      <div class="rectangle" id="strona3" onclick="window.location.href='link-do-strony-3'">
+        <a href="link-do-strony-3">Tytuł Strony 3</a>
+      </div>
+      <div class="rectangle" id="strona4" onclick="window.location.href='link-do-strony-4'">
+        <a href="link-do-strony-4">Tytuł Strony 4</a>
+      </div>
+      <div class="rectangle" id="strona5" onclick="window.location.href='link-do-strony-5'">
+        <a href="link-do-strony-5">Tytuł Strony 5</a>
+      </div>
+      <div class="rectangle" id="strona6" onclick="window.location.href='link-do-strony-6'">
+        <a href="link-do-strony-6">Tytuł Strony 6</a>
+      </div>
+      <div class="rectangle" id="strona7" onclick="window.location.href='link-do-strony-7'">
+        <a href="link-do-strony-7">Tytuł Strony 7</a>
+      </div>
+      <div class="rectangle" id="strona8" onclick="window.location.href='link-do-strony-8'">
+        <a href="link-do-strony-8">Tytuł Strony 8</a>
+      </div>
+      <div class="rectangle" id="strona9" onclick="window.location.href='link-do-strony-9'">
+        <a href="link-do-strony-9">Tytuł Strony 9</a>
+      </div>
+      <div class="rectangle" id="strona10" onclick="window.location.href='link-do-strony-10'">
+        <a href="link-do-strony-10">Tytuł Strony 10</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
